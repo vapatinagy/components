@@ -1,0 +1,24 @@
+<body>
+  <main class="content">
+    <span>content</span>
+  </main>
+  <footer class="footer">
+    <span>footer</span>
+  </footer>
+</body>
+--------------------------------------------------------------------
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin-bottom: 50px;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 50px;
+}
